@@ -1,0 +1,13 @@
+baseURL: "https://birrbazaar.com/"
+languageCode: "en-us"
+title: "BirrBazaar"
+theme: "PaperMod"
+
+params:
+  homeInfoParams:
+    Title: "Welcome to BirrBazaar"
+    Content: "Compare product prices and find the best deals in Ethiopia!"
+
+markup:
+  highlight:
+    noClasses: false
