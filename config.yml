@@ -4,11 +4,35 @@ title: "BirrBazaar"
 theme: "PaperMod"
 
 params:
-  SiteVerificationTag: ""  
   Title: "Compare product prices easily"
+  description: "BirrBazaar helps you compare product prices in Ethiopia quickly and easily."
   homeInfoParams:
     Title: "Welcome to BirrBazaar"
     Content: "Compare product prices to find the best deals in Ethiopia!"
+
+  # 🔽 ここがエラー回避のポイント（analytics構造の追加）
+  analytics:
+    google:
+      SiteVerificationTag: ""    # Googleサイト認証タグ（例: "ABC123"）※空でもOK
+    bing:
+      SiteVerificationTag: ""    # Bingサイト認証タグ
+    yandex:
+      SiteVerificationTag: ""    # Yandexサイト認証タグ
+    naver:
+      SiteVerificationTag: ""    # Naverサイト認証タグ
+
+  # オプション（デフォルト設定）
+  defaultTheme: auto
+  assets:
+    disableScrollBarStyle: false
+    disableFingerprinting: false
+    favicon: "favicon.ico"
+    favicon16x16: "favicon-16x16.png"
+    favicon32x32: "favicon-32x32.png"
+    apple_touch_icon: "apple-touch-icon.png"
+    safari_pinned_tab: "safari-pinned-tab.svg"
+    theme_color: "#2e2e33"
+    msapplication_TileColor: "#2e2e33"
 
 markup:
   highlight:
