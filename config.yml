@@ -4,14 +4,12 @@ title: "BirrBazaar"
 theme: "PaperMod"
 
 params:
-  env: production
+  SiteVerificationTag: ""  
+  Title: "Compare product prices easily"
   homeInfoParams:
     Title: "Welcome to BirrBazaar"
-    Content: "商品価格を比較して、エチオピアで最高のお得な情報を見つけてください！"
-  analytics:
-    google: ""
+    Content: "Compare product prices to find the best deals in Ethiopia!"
 
 markup:
   highlight:
     noClasses: false
-
